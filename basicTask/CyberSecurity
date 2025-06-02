@@ -1,0 +1,34 @@
+Google Dorking the site:nitt.edu
+nitt.edu
+1)Admin Panel
+site:nitt.edu intitle:"admin panel"  https://webmail.nitt.edu/mailman/create https://www.nitt.edu/home/academics/admissions/btech/staterank/+login  (2)
+2)Contact details of student and health insurance document with exposed password
+"Krishvinraam Mohan" http://streaming.nitt.edu/studentid/ i click any id and type the roll no. as password (2)(5)
+i get this pdf http://streaming.nitt.edu/studentid/101120003_Akshai%20Pranav%20A%20D.pdf   (2)(5)
+3)Exposed Public Document
+880 students project site:nitt.edu filetype:docx -academics  https://r.search.yahoo.com/_ylt=AwrKEifm3ixoNQIA8Ku7HAx.;_ylu=Y29sbwNzZzMEcG9zAzIEdnRpZAMEc2VjA3Ny/RV=2/RE=1748980710/RO=10/RU=https%3a%2f%2fwww.nitt.edu%2fwww%2fuploads%2f880_student%2520projects.doc/RK=2/RS=Z1r3xKLIRLTFhRaMxJtSRv3V5HU- (1)
+4)Config File
+site:nitt.edu inurl:"wp-config" OR "config.php" http://vr360.nitt.edu/dashboard/docs/backup-restore-mysql.html http://vr360.nitt.edu/dashboard/docs/backup-restore-mysql.pdf (3)
+5)Public Bakcup
+site:nitt.edu intext:"backup" (3)
+    https://courses.nitt.edu/moodle41/course/index.php?categoryid=1
+    https://www.nitt.edu/www/uploads/254_csg4_5kva_ups.pdf
+    https://www.nitt.edu/home/academics/departments/ice/programmes/btech/curriculum/BTech-ICE-FC%202015-16%20PC%20MI%20ELR%2021.pdf
+    https://www.nitt.edu/www/uploads/254_csg4_5kva_ups.pdf
+
+6)Exposed logs/Error
+
+site:nitt.edu "error" OR "warning" OR "debug" (4)
+    http://cheme.nitt.edu/website/dnaint_files/saved_resource.htm
+site:nitt.edu ext:htm  (4)
+    https://icacse.nitt.edu/ica_accommodation.php 
+site:nitt.edu filetype:php(4)
+    https://www.nitt.edu/cms/templates/NewNittSite17/css/color.php
+
+https://webmail.nitt.edu/mailman/private/students/(2)
+7)Facult Contact Info
+site:nitt.edu inurl:"faculty" (5)
+    https://www.nitt.edu/home/academics/departments/faculty/
+Unable to find Git FOlders and Env Files
+
+
